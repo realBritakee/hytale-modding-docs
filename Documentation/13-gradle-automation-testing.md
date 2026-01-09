@@ -26,18 +26,18 @@ You can automate this entire workflow with a custom Gradle plugin!
 
 ### Project Structure
 
-```bash
+```
 your-plugin/
-|-- buildSrc/
-|   |-- build.gradle.kts
-|   `-- src/
-|       `-- main/
-|           `-- kotlin/
-|               `-- RunHytalePlugin.kt
-|-- build.gradle.kts
-`-- src/
-    `-- main/
-        `-- java/
+├── buildSrc/
+│   ├── build.gradle.kts
+│   └── src/
+│       └── main/
+│           └── kotlin/
+│               └── RunHytalePlugin.kt
+├── build.gradle.kts
+└── src/
+    └── main/
+        └── java/
 ```
 
 ### Step 1: Create buildSrc Directory

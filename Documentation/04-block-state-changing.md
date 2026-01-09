@@ -272,19 +272,19 @@ For a state-changing block with custom models, you need:
 
 ```
 YourPackName/
-–”œ–”€–”€ Common/
-–”‚   –””–”€–”€ Blocks/
-–”‚       –”œ–”€–”€ model_one.blockymodel
-–”‚       –”œ–”€–”€ model_two.blockymodel
-–”‚       –””–”€–”€ Texture/
-–”‚           –””–”€–”€ textureone.png
-–””–”€–”€ Server/
-    –”œ–”€–”€ Item/
-    –”‚   –””–”€–”€ Items/
-    –”‚       –””–”€–”€ your_block.json
-    –””–”€–”€ Languages/
-        –””–”€–”€ en-US/
-            –””–”€–”€ interactionHints.lang
+|-- Common/
+|   `-- Blocks/
+|       |-- model_one.blockymodel
+|       |-- model_two.blockymodel
+|       `-- Texture/
+|           `-- textureone.png
+`-- Server/
+    |-- Item/
+    |   `-- Items/
+    |       `-- your_block.json
+    `-- Languages/
+        `-- en-US/
+            `-- interactionHints.lang
 ```
 
 ---

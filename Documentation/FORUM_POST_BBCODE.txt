@@ -1,0 +1,225 @@
+[size=6][b][RESOURCE] Comprehensive Hytale Modding Documentation - Packs & Plugins[/b][/size]
+
+[size=5][b]📚 Overview[/b][/size]
+
+I've compiled and tested a comprehensive documentation resource for Hytale modding, covering everything from basic Pack creation to advanced Plugin development. All tutorials have been personally tested and verified to work.
+
+[b]Documentation Link:[/b] [url=https://britakee-studios.gitbook.io/hytale-modding-documentation]https://britakee-studios.gitbook.io/hytale-modding-documentation[/url]
+
+[size=5][b]✨ What's Included[/b][/size]
+
+[size=4][b]🎨 Packs - Content Creation (No Coding Required)[/b][/size]
+[list]
+[*]Getting Started with Packs
+[*]Adding Custom Blocks
+[*]Block State Changing (on/off, open/closed)
+[*]Custom Item Categories
+[*]Block Animations with Blockbench
+[/list]
+
+[size=4][b]💻 Plugins - Java Development[/b][/size]
+[list]
+[*]Getting Started with Plugins (Java 25)
+[*]Example Commands & Implementations
+[*]Custom Config Files (Codec system)
+[*]Common Plugin Features (placeholders, translations, utilities)
+[*]Advanced Plugin Patterns (Service-Storage, thread pools, event systems)
+[*]Gradle Automation & Testing (custom Gradle plugins)
+[*]Bootstrap/Early Plugins (bytecode transformation)
+[/list]
+
+[size=4][b]🚀 Ready-to-Use Template[/b][/size]
+[list]
+[*][b]Plugin Project Template:[/b] [url=https://github.com/realBritakee/hytale-template-plugin]https://github.com/realBritakee/hytale-template-plugin[/url]
+[*]Builds immediately without any changes
+[*]Modern build tools (Gradle 9.2.0, Java 25)
+[*]Automated server testing
+[*]CI/CD with GitHub Actions
+[*]ShadowJar for dependency bundling
+[/list]
+
+[size=4][b]🛠️ Resources & Tools[/b][/size]
+[list]
+[*]Blockbench guides
+[*]IntelliJ IDEA setup
+[*]Video tutorials by Kaupenjoe
+[*]Community resources
+[*]Development utilities
+[/list]
+
+[size=5][b]🎯 Who Is This For?[/b][/size]
+
+[size=4][b]Content Creators (No Coding)[/b][/size]
+[list]
+[*]Artists and designers who want to add custom blocks, items, and animations
+[*]Uses Asset Editor and Blockbench
+[*]JSON-based configuration
+[/list]
+
+[size=4][b]Plugin Developers (Java)[/b][/size]
+[list]
+[*]Programmers who want to expand game functionality
+[*]Requires Java 25 and IntelliJ IDEA
+[*]Full API access
+[/list]
+
+[size=4][b]Advanced Developers[/b][/size]
+[list]
+[*]Low-level modifications with bytecode transformation
+[*]ASM library usage
+[*]Expert-level only
+[/list]
+
+[size=5][b]📖 Documentation Features[/b][/size]
+
+[list]
+[*]✅ [b]Step-by-step instructions[/b] - Clear, easy-to-follow guides
+[*]✅ [b]Code examples[/b] - Working Java and JSON snippets
+[*]✅ [b]Complete file structures[/b] - Visual directory layouts
+[*]✅ [b]Troubleshooting sections[/b] - Common issues and solutions
+[*]✅ [b]Best practices[/b] - Professional patterns and anti-patterns
+[*]✅ [b]Tested & Verified[/b] - All tutorials personally tested
+[/list]
+
+[size=5][b]🚀 Quick Start[/b][/size]
+
+[size=4][b]For Content Creators:[/b][/size]
+[list=1]
+[*]Read [url=https://britakee-studios.gitbook.io/hytale-modding-documentation/getting-started/hytale-modding-overview]Hytale Modding Overview[/url]
+[*]Follow [url=https://britakee-studios.gitbook.io/hytale-modding-documentation/packs-content-creation/getting-started-with-packs]Getting Started with Packs[/url]
+[*]Create your first block with [url=https://britakee-studios.gitbook.io/hytale-modding-documentation/packs-content-creation/adding-a-block]Adding a Block[/url]
+[/list]
+
+[size=4][b]For Plugin Developers:[/b][/size]
+[list=1]
+[*]Clone the template:
+[code]git clone https://github.com/realBritakee/hytale-template-plugin.git
+cd hytale-template-plugin
+./gradlew shadowJar  # Builds immediately![/code]
+
+[*]Follow [url=https://britakee-studios.gitbook.io/hytale-modding-documentation/plugins-java-development/getting-started-with-plugins]Getting Started with Plugins[/url]
+[*]Study the [url=https://britakee-studios.gitbook.io/hytale-modding-documentation/plugins-java-development/example-command-to-show-title]Example Command[/url]
+[/list]
+
+[size=5][b]🎥 Video Tutorials[/b][/size]
+
+For visual learners, check out the [url=https://www.youtube.com/playlist?list=PLKGarocXCE1EBIOx2UTpGPZyWMpanSnDj]Modding by Kaupenjoe[/url] YouTube playlist - comprehensive video series covering Hytale modding.
+
+[size=5][b]🔧 Plugin Template Features[/b][/size]
+
+The included plugin template is production-ready and includes:
+
+[list]
+[*]✅ [b]Gradle 9.2.0[/b] with Kotlin DSL
+[*]✅ [b]Java 25[/b] support
+[*]✅ [b]Automated server testing[/b] - One-command workflow
+[*]✅ [b]Smart caching[/b] - Downloads server JAR once, reuses forever
+[*]✅ [b]Auto-deploy[/b] - Builds and deploys your plugin automatically
+[*]✅ [b]Interactive console[/b] - Type commands directly in terminal
+[*]✅ [b]Debug support[/b] - Connect your IDE debugger to port 5005
+[*]✅ [b]CI/CD ready[/b] - GitHub Actions workflow included
+[*]✅ [b]ShadowJar[/b] - Automatic dependency bundling
+[/list]
+
+[b]Command to run server with your plugin:[/b]
+[code]./gradlew runServer[/code]
+
+[size=5][b]📝 Sources & Credits[/b][/size]
+
+This documentation is compiled from various sources within the Hytale modding community:
+
+[list]
+[*][b]Sketch Macaw[/b] - Pack tutorials
+[*][b]Darkhax[/b] - Plugin tutorials
+[*][b]Jared[/b] - Plugin template and tutorials
+[*][b]Rick[/b] - Plugin tutorials
+[*][b]Buuz[/b] - Config file tutorial
+[*][b]Community Contributors[/b] - Various improvements and testing
+[/list]
+
+All content has been personally tested, verified, and organized into a comprehensive resource.
+
+[size=5][b]🌟 Key Highlights[/b][/size]
+
+[size=4][b]Advanced Plugin Patterns[/b][/size]
+Learn professional architecture patterns used in production plugins:
+[list]
+[*]Service-Storage pattern for data management
+[*]Thread pool management for async operations
+[*]Custom event systems
+[*]Structured logging
+[*]Type-safe configuration
+[*]Periodic save patterns
+[/list]
+
+[size=4][b]Gradle Automation[/b][/size]
+Custom Gradle plugin for streamlined development:
+[list]
+[*]Automatic server JAR download and caching
+[*]One-command build, deploy, and test workflow
+[*]Interactive console for server commands
+[*]Remote debugging support
+[*]CI/CD integration
+[/list]
+
+[size=4][b]Common Plugin Features[/b][/size]
+Practical implementations of frequently-needed features:
+[list]
+[*]Placeholder system (e.g., [font=courier]%player_name%[/font])
+[*]Translation/i18n support
+[*]Time, number, and color utilities
+[*]First join detection
+[*]Ban/mute enforcement
+[*]Chat channels
+[/list]
+
+[size=5][b]📋 Requirements[/b][/size]
+
+[size=4][b]For Packs:[/b][/size]
+[list]
+[*]Blockbench (3D modeling)
+[*]Image editor (textures)
+[*]Text editor (JSON files)
+[/list]
+
+[size=4][b]For Plugins:[/b][/size]
+[list]
+[*]Java 25 JDK
+[*]IntelliJ IDEA (Community Edition is fine)
+[*]Gradle (included in template)
+[/list]
+
+[size=5][b]🤝 Contributing[/b][/size]
+
+Found an issue or want to contribute?
+[list]
+[*]The documentation is open to community feedback
+[*]All suggestions and corrections are welcome
+[*]Help improve the resource for everyone
+[/list]
+
+[size=5][b]📞 Support[/b][/size]
+
+If you have questions or need help:
+[list=1]
+[*]Check the relevant tutorial in the documentation
+[*]Review the troubleshooting sections
+[*]Ask in this thread
+[*]Join the Hytale modding community
+[/list]
+
+[size=5][b]🔗 Links[/b][/size]
+
+[list]
+[*][b]Documentation:[/b] [url=https://britakee-studios.gitbook.io/hytale-modding-documentation]https://britakee-studios.gitbook.io/hytale-modding-documentation[/url]
+[*][b]Plugin Template:[/b] [url=https://github.com/realBritakee/hytale-template-plugin]https://github.com/realBritakee/hytale-template-plugin[/url]
+[*][b]Video Tutorials:[/b] [url=https://www.youtube.com/playlist?list=PLKGarocXCE1EBIOx2UTpGPZyWMpanSnDj]Modding by Kaupenjoe[/url]
+[/list]
+
+[size=5][b]📌 Note[/b][/size]
+
+Hytale is currently in Early Access, and some information may change as the game develops. The documentation will be updated to reflect any changes in the modding API or tools.
+
+[center][size=5][b]Happy Modding! 🎮[/b][/size]
+
+[i]Start your Hytale modding journey today with these comprehensive, tested guides.[/i][/center]

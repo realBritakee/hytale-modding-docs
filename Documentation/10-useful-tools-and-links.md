@@ -45,6 +45,24 @@ The official tool for creating models and assets for Hytale, with a specialized 
 
 ## Community Resources
 
+### Hytale Modding Video Tutorials
+
+**YouTube Playlist:** [Modding by Kaupenjoe](https://www.youtube.com/playlist?list=PLKGarocXCE1EBIOx2UTpGPZyWMpanSnDj)
+
+**Description:**  
+Comprehensive video tutorial series covering Hytale modding from basics to advanced topics.
+
+**Content:**
+- Step-by-step video guides
+- Visual demonstrations
+- Practical examples
+- Beginner-friendly explanations
+- Advanced techniques and patterns
+
+**Perfect for:** Visual learners who prefer video tutorials over written documentation.
+
+---
+
 ### Hytale Modding Wiki
 
 **Status:** To Be Confirmed (TBC)
@@ -415,27 +433,4 @@ This page will be updated as new tools and resources become available. Check bac
 **Last Updated:** January 9, 2026
 
 ---
-
-## Summary
-
-### Essential Tools for Beginners:
-1. **Blockbench** - For 3D models
-2. **Paint.NET or GIMP** - For textures
-3. **Text Editor** - For JSON files
-4. **IntelliJ IDEA** - For plugins (if coding)
-
-### Essential Tools for Plugin Developers:
-1. **IntelliJ IDEA** - Java IDE
-2. **Java 25 JDK** - Required runtime
-3. **Gradle** - Build automation (included in templates)
-4. **Custom Gradle Server Plugin** - Automated testing (see [guide](13-gradle-automation-testing.md))
-
-### Essential Resources:
-1. **Community Forums** - Community help and discussions
-2. **This Documentation** - Comprehensive tutorials
-3. **Hytale Modding Wiki** - When available
-4. **Blockbench Hytale Plugin** - Model export
-
----
-
 

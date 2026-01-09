@@ -390,21 +390,21 @@ public class AsmTransformer implements ClassTransformer {
 
 ## Project Structure
 
-```bash
+```
 your-early-plugin/
-|-- src/
-|   `-- main/
-|       |-- java/
-|       |   `-- com/
-|       |       `-- example/
-|       |           `-- early/
-|       |               `-- ExampleTransformer.java
-|       `-- resources/
-|           `-- META-INF/
-|               `-- services/
-|                   `-- com.hypixel.hytale.plugin.early.ClassTransformer
-|-- build.gradle
-`-- README.md
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── example/
+│       │           └── early/
+│       │               └── ExampleTransformer.java
+│       └── resources/
+│           └── META-INF/
+│               └── services/
+│                   └── com.hypixel.hytale.plugin.early.ClassTransformer
+├── build.gradle
+└── README.md
 ```
 
 ---

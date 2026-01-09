@@ -170,23 +170,23 @@ To use Vanilla categories in your items, look in the game's asset files:
 
 ```
 YourPackName/
-–”œ–”€–”€ manifest.json
-–”œ–”€–”€ Common/
-–”‚   –””–”€–”€ Icons/
-–”‚       –””–”€–”€ ItemCategories/
-–”‚           –”œ–”€–”€ MyCategory.png
-–”‚           –”œ–”€–”€ My_Example_Category.png
-–”‚           –””–”€–”€ My_Example_Category_Two.png
-–””–”€–”€ Server/
-    –”œ–”€–”€ Item/
-    –”‚   –”œ–”€–”€ Category/
-    –”‚   –”‚   –””–”€–”€ CreativeLibrary/
-    –”‚   –”‚       –””–”€–”€ MyItemCategory.json
-    –”‚   –””–”€–”€ Items/
-    –”‚       –””–”€–”€ your_block.json
-    –””–”€–”€ Languages/
-        –””–”€–”€ en-US/
-            –””–”€–”€ ui.lang
+|-- manifest.json
+|-- Common/
+|   `-- Icons/
+|       `-- ItemCategories/
+|           |-- MyCategory.png
+|           |-- My_Example_Category.png
+|           `-- My_Example_Category_Two.png
+`-- Server/
+    |-- Item/
+    |   |-- Category/
+    |   |   `-- CreativeLibrary/
+    |   |       `-- MyItemCategory.json
+    |   `-- Items/
+    |       `-- your_block.json
+    `-- Languages/
+        `-- en-US/
+            `-- ui.lang
 ```
 
 ---
