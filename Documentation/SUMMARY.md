@@ -18,24 +18,13 @@
 
 ## Plugins - Java Development
 
-### Getting Started
-
 * [Getting Started with Plugins](07-getting-started-with-plugins.md)
 * [Example Command to Show Title](11-example-command-show-title.md)
-
-### Core Features
-
 * [Custom Config Files](08-custom-config-files.md)
 * [Common Plugin Features](14-common-plugin-features.md)
-
-### Advanced Development
-
 * [Advanced Plugin Patterns](12-advanced-plugin-patterns.md)
 * [Gradle Automation & Testing](13-gradle-automation-testing.md)
 * [Bootstrap/Early Plugins](09-bootstrap-early-plugins.md)
-
-### Project Templates
-
 * [Plugin Project Template](15-plugin-project-template.md)
 
 ## Resources & Tools
