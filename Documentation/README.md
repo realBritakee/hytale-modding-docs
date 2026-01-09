@@ -124,33 +124,33 @@ Hytale is currently in **Early Access**, and these tutorials may contain outdate
 
 ```
 %AppData%/Roaming/Hytale/UserData/Packs/YourPackName/
-â”œâ”€â”€ manifest.json
-â”œâ”€â”€ Common/
-â”‚   â”œâ”€â”€ BlockTextures/
-â”‚   â”œâ”€â”€ Icons/
-â”‚   â”œâ”€â”€ Models/
-â”‚   â””â”€â”€ Blocks/
-â”‚       â””â”€â”€ Animations/
-â””â”€â”€ Server/
-    â”œâ”€â”€ Item/
-    â”‚   â”œâ”€â”€ Items/
-    â”‚   â””â”€â”€ Category/
-    â””â”€â”€ Languages/
-        â””â”€â”€ en-US/
+|-- manifest.json
+|-- Common/
+|   |-- BlockTextures/
+|   |-- Icons/
+|   |-- Models/
+|   `-- Blocks/
+|       `-- Animations/
+`-- Server/
+    |-- Item/
+    |   |-- Items/
+    |   `-- Category/
+    `-- Languages/
+        `-- en-US/
 ```
 
 ### For Plugins:
 
 ```
 %AppData%/Roaming/Hytale/UserData/Mods/
-â””â”€â”€ your-plugin-1.0.0.jar
+`-- your-plugin-1.0.0.jar
 ```
 
 ### For Early Plugins:
 
 ```
 /path/to/hytale/earlyplugins/
-â””â”€â”€ your-early-plugin-1.0.0.jar
+`-- your-early-plugin-1.0.0.jar
 ```
 
 ---
