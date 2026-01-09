@@ -50,7 +50,7 @@ Bootstrap/Early Plugins are a special type of plugin that executes **before** th
 ### Default Location:
 
 By default, the game loads early plugins from:
-```
+```bash
 earlyplugins/
 ```
 
@@ -140,7 +140,7 @@ public class ExampleTransformer implements ClassTransformer {
 **Path:** `src/main/resources/META-INF/services/com.hypixel.hytale.plugin.early.ClassTransformer`
 
 **Contents:**
-```
+```bash
 com.example.early.ExampleTransformer
 ```
 
@@ -390,21 +390,21 @@ public class AsmTransformer implements ClassTransformer {
 
 ## Project Structure
 
-```
+```bash
 your-early-plugin/
-â”œâ”€â”€ src/
-â”‚   â””â”€â”€ main/
-â”‚       â”œâ”€â”€ java/
-â”‚       â”‚   â””â”€â”€ com/
-â”‚       â”‚       â””â”€â”€ example/
-â”‚       â”‚           â””â”€â”€ early/
-â”‚       â”‚               â””â”€â”€ ExampleTransformer.java
-â”‚       â””â”€â”€ resources/
-â”‚           â””â”€â”€ META-INF/
-â”‚               â””â”€â”€ services/
-â”‚                   â””â”€â”€ com.hypixel.hytale.plugin.early.ClassTransformer
-â”œâ”€â”€ build.gradle
-â””â”€â”€ README.md
+|-- src/
+|   `-- main/
+|       |-- java/
+|       |   `-- com/
+|       |       `-- example/
+|       |           `-- early/
+|       |               `-- ExampleTransformer.java
+|       `-- resources/
+|           `-- META-INF/
+|               `-- services/
+|                   `-- com.hypixel.hytale.plugin.early.ClassTransformer
+|-- build.gradle
+`-- README.md
 ```
 
 ---
@@ -498,7 +498,7 @@ public byte[] transform(String name, String path, byte[] bytes) {
 ### Check Transformer is Loaded:
 
 The startup message shows how many transformers loaded:
-```
+```bash
 Loaded 2 class transformer(s)!!
 ```
 

@@ -122,7 +122,7 @@ Hytale is currently in **Early Access**, and these tutorials may contain outdate
 
 ### For Packs:
 
-```
+```bash
 %AppData%/Roaming/Hytale/UserData/Packs/YourPackName/
 |-- manifest.json
 |-- Common/
@@ -141,14 +141,14 @@ Hytale is currently in **Early Access**, and these tutorials may contain outdate
 
 ### For Plugins:
 
-```
+```bash
 %AppData%/Roaming/Hytale/UserData/Mods/
 `-- your-plugin-1.0.0.jar
 ```
 
 ### For Early Plugins:
 
-```
+```bash
 /path/to/hytale/earlyplugins/
 `-- your-early-plugin-1.0.0.jar
 ```

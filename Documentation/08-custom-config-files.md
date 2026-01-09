@@ -124,7 +124,7 @@ public class ExamplePlugin extends JavaPlugin {
 ### Configuration File Location:
 
 The config file will be generated at:
-```
+```bash
 plugins/com.yourgroup_YourPluginName/ExamplePlugin.example.json
 ```
 

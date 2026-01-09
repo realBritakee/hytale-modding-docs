@@ -20,7 +20,7 @@ First, create a folder for your Pack:
 Replace `YourPackName` with the desired name of your Pack.
 
 ### Example:
-```
+```bash
 C:\Users\YourUsername\AppData\Roaming\Hytale\UserData\Packs\MyFirstPack
 ```
 
@@ -75,11 +75,11 @@ Create a `manifest.json` file in your Pack folder. This file contains metadata a
 Create two main folders inside your Pack directory:
 
 ### Folder Structure:
-```
+```bash
 ./AppData/Roaming/Hytale/UserData/Packs/YourPackName/
-–”œ–”€–”€ manifest.json
-–”œ–”€–”€ Common/
-–””–”€–”€ Server/
+|-- manifest.json
+|-- Common/
+`-- Server/
 ```
 
 ### Common Folder
@@ -104,20 +104,20 @@ Create two main folders inside your Pack directory:
 
 ## Complete Folder Structure Example
 
-```
+```bash
 MyFirstPack/
-–”œ–”€–”€ manifest.json
-–”œ–”€–”€ Common/
-–”‚   –”œ–”€–”€ BlockTextures/
-–”‚   –”œ–”€–”€ Icons/
-–”‚   –””–”€–”€ Models/
-–””–”€–”€ Server/
-    –”œ–”€–”€ Item/
-    –”‚   –”œ–”€–”€ Items/
-    –”‚   –””–”€–”€ Category/
-    –”œ–”€–”€ Languages/
-    –”‚   –””–”€–”€ en-US/
-    –””–”€–”€ Block/
+|-- manifest.json
+|-- Common/
+|   |-- BlockTextures/
+|   |-- Icons/
+|   `-- Models/
+`-- Server/
+    |-- Item/
+    |   |-- Items/
+    |   `-- Category/
+    |-- Languages/
+    |   `-- en-US/
+    `-- Block/
 ```
 
 ---

@@ -206,7 +206,7 @@ To create a shareable JAR file of your plugin:
 ### Output Location:
 
 Your plugin JAR will be in:
-```
+```bash
 build/libs/your-plugin-name-1.0.0.jar
 ```
 

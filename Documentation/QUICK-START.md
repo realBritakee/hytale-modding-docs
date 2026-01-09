@@ -22,7 +22,7 @@ git push -u origin main
 
 ### Step 3: Done! 
 Your docs are live at:
-```
+```bash
 https://your-username.gitbook.io/hytale-modding/
 ```
 

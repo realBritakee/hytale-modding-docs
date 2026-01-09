@@ -125,24 +125,24 @@ Create `styles/website.css` for custom styles:
 
 ## Folder Structure
 
-```
+```bash
 Documentation/
-–”œ–”€–”€ .gitbook.yaml          # GitBook Cloud config
-–”œ–”€–”€ book.json              # GitBook CLI config
-–”œ–”€–”€ SUMMARY.md             # Table of contents
-–”œ–”€–”€ README.md              # Introduction page
-–”œ–”€–”€ GITBOOK_README.md      # This file
-–”‚
-–”œ–”€–”€ 01-hytale-modding-overview.md
-–”œ–”€–”€ 02-getting-started-with-packs.md
-–”œ–”€–”€ 03-adding-a-block.md
-–”œ–”€–”€ 04-block-state-changing.md
-–”œ–”€–”€ 05-item-categories.md
-–”œ–”€–”€ 06-block-animations.md
-–”œ–”€–”€ 07-getting-started-with-plugins.md
-–”œ–”€–”€ 08-custom-config-files.md
-–”œ–”€–”€ 09-bootstrap-early-plugins.md
-–””–”€–”€ 10-useful-tools-and-links.md
+|-- .gitbook.yaml          # GitBook Cloud config
+|-- book.json              # GitBook CLI config
+|-- SUMMARY.md             # Table of contents
+|-- README.md              # Introduction page
+|-- GITBOOK_README.md      # This file
+|
+|-- 01-hytale-modding-overview.md
+|-- 02-getting-started-with-packs.md
+|-- 03-adding-a-block.md
+|-- 04-block-state-changing.md
+|-- 05-item-categories.md
+|-- 06-block-animations.md
+|-- 07-getting-started-with-plugins.md
+|-- 08-custom-config-files.md
+|-- 09-bootstrap-early-plugins.md
+`-- 10-useful-tools-and-links.md
 ```
 
 ---
