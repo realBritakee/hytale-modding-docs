@@ -50,11 +50,14 @@ Hytale is currently in **Early Access**, and these tutorials may contain outdate
 9. **[Bootstrap/Early Plugins](09-bootstrap-early-plugins.md)**  
    Advanced: Low-level modifications using class transformers (use only when necessary).
 
+10. **[Example Command to Show Title](11-example-command-show-title.md)**  
+    Example plugin command that displays titles to players in-game.
+
 ---
 
 ### Resources & Tools
 
-10. **[Useful Tools & Links](10-useful-tools-and-links.md)**  
+11. **[Useful Tools & Links](10-useful-tools-and-links.md)**  
     Essential tools, community resources, and development utilities for Hytale modding.
 
 ---
@@ -210,6 +213,7 @@ Each guide includes:
 1. Modding Overview
 2. Getting Started with Plugins
 3. Custom Config Files
+4. Example Command to Show Title
 
 ### Advanced (Plugins):
 1. Event handling (API docs)

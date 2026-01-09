@@ -21,6 +21,7 @@
 * [Getting Started with Plugins](07-getting-started-with-plugins.md)
 * [Custom Config Files](08-custom-config-files.md)
 * [Bootstrap/Early Plugins](09-bootstrap-early-plugins.md)
+* [Example Command to Show Title](11-example-command-show-title.md)
 
 ## Resources & Tools
 

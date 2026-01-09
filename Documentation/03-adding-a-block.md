@@ -185,6 +185,8 @@ Now you can visually edit your block using the in-game Asset Editor:
    - Right-click on your world
    - Toggle on your Pack
 
+![Adding Pack to World](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/9242438698/original/W1aHFifMfGPRtqp7DTqLiudGZ7IvyRWPkA.png?1767794986)
+
 2. **Enter the World:**
    - Join the world with your Pack enabled
 
@@ -193,11 +195,15 @@ Now you can visually edit your block using the in-game Asset Editor:
    - Click on the "Creation Tools" tab
    - Click on "Asset Editor"
 
+![Asset Editor Interface](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/9242488837/original/YyJgcUx4zPCJxESiFE5CuhoJljgSverQ8w.png?1767864858)
+
 4. **Edit Your Block:**
    - Select your Pack from the list
    - Find your block in the items list
    - Modify any settings you desire
    - Changes are saved automatically
+
+![Asset Editor Block Settings](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/9242488840/original/tPkYp5a_xw0dNDhWjiue43_Q9y9iD72XJw.png?1767864858)
 
 ### What You Can Edit in Asset Editor:
 - Material properties

@@ -62,6 +62,8 @@ The **Asset Editor** is particularly important as it allows you to:
 - Create mechanics without writing code
 - Edit all properties of blocks, items, and more
 
+![Asset Editor](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/9242437642/original/fG1dqRJeDvDzMh_XoZ6vSgTB_iYSUtTRKA.png?1767794173)
+
 ---
 
 ## Future of Modding
