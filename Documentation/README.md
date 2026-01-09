@@ -1,13 +1,23 @@
 ﻿# Hytale Modding Documentation
 
-**Compiled:** January 9, 2026  
-**Status:** Hytale is currently in Early Access
+**Compiled:** January 10, 2026  
+**Status:** Hytale is currently in Early Access  
+**Official Reference:** [Hytale Modding Strategy and Status](https://hytale.com/news/2025/11/hytale-modding-strategy-and-status)
 
 ---
 
 ## Important Notice
 
-Hytale is currently in **Early Access**, and these tutorials may contain outdated or incomplete information. This documentation aims to provide accurate and helpful guidance for Hytale modders.
+Hytale is currently in **Early Access**. This documentation is based on official Hytale sources and community testing.
+
+**Key Points:**
+- Official tools are actively being developed and improved
+- Server source code will be released within 1-2 months (March 2026)
+- Official GitBook documentation is in progress by Hytale developers
+- Visual scripting is planned (no text-based scripting like Lua)
+- **Take frequent backups** - crashes can cause data loss
+
+> *"We're building Hytale with modding at its core. Most of what you see in the game can be changed, extended, or removed entirely."* - Slikey (Technical Director)
 
 ---
 
@@ -15,8 +25,8 @@ Hytale is currently in **Early Access**, and these tutorials may contain outdate
 
 ### Getting Started
 
-1. **[Hytale Modding Overview](01-hytale-modding-overview.md)**  
-   Introduction to Hytale modding, mod types (Packs, Plugins, Early Plugins), and Creation Tools.
+1. **[Hytale Modding Overview](01-hytale-modding-overview.md)** ⭐ **UPDATED**  
+   Official modding categories, philosophy, tools, and long-term vision. Based on Hytale's official modding strategy.
 
 ---
 
@@ -77,8 +87,14 @@ Hytale is currently in **Early Access**, and these tutorials may contain outdate
 
 ### Resources & Tools
 
-15. **[Useful Tools & Links](10-useful-tools-and-links.md)**  
-    Essential tools, community resources, and development utilities for Hytale modding.
+15. **[Useful Tools & Links](10-useful-tools-and-links.md)** ⭐ **UPDATED**  
+    Official tools (Blockbench, Asset Editor, Node Editor, Creative Mode), community resources, and development utilities.
+
+16. **[Blockbench Modeling Guide](17-blockbench-modeling-guide.md)** 🎨 **NEW**  
+    Official art style guidelines, modeling best practices, texturing tips, and Hytale-specific workflows from the Art Director.
+
+17. **[World Generation Modding](16-world-generation-modding.md)** 🌍 **NEW**  
+    Create custom biomes, terrain, and procedural content using the V2 world generator and visual node editor.
 
 ---
 
@@ -128,28 +144,47 @@ cd hytale-template-plugin
 
 ## What Are Mods in Hytale?
 
-### Three Types of Mods:
+### Four Official Modding Categories:
 
-#### 1. **Packs** (Asset/Content Packs)
-- **Purpose:** Add new blocks, mobs, items, and behavior
-- **Tools:** Asset Editor (no coding required)
-- **Best For:** Content creators, artists, designers
-- **Files:** JSON, textures, models
-- **Can be used with:** Plugins
+According to [Hytale's official modding strategy](https://hytale.com/news/2025/11/hytale-modding-strategy-and-status):
 
-#### 2. **Plugins** (Java Mods)
-- **Purpose:** Expand vanilla functionality with code
+#### 1. **Server Plugins** (Java .jar files)
+- **Purpose:** Extend server functionality programmatically
+- **Power Level:** Extremely powerful - deep modifications to gameplay and core systems
+- **Use Cases:** Minigames, economies, commands, custom logic, new asset types
 - **Tools:** Java 25, IntelliJ IDEA
 - **Best For:** Programmers, developers
-- **Files:** Java source, compiled JARs
 - **API Access:** Full game API
 
-#### 3. **Bootstrap/Early Plugins** (Advanced)
+#### 2. **Data Assets** (JSON files)
+- **Purpose:** Drive gameplay behavior and define core content
+- **Content Types:** Blocks, items, NPCs, world generation, drop tables, loot
+- **Tools:** Asset Editor (no coding required)
+- **Best For:** Content creators, artists, designers
+- **Files:** JSON configuration files
+- **Can be used with:** Plugins for extended functionality
+
+#### 3. **Art Assets** (Sounds, Models, Textures)
+- **Purpose:** Visual and audio representation of game elements
+- **Content Types:** 3D models, textures, sounds, animations
+- **Official Tool:** Blockbench (officially supported)
+- **Best For:** Artists, 3D modelers, texture artists
+- **Files:** .bbmodel, .png, .ogg, etc.
+
+#### 4. **Save Files** (Worlds and Prefabs)
+- **Purpose:** Share complete creations
+- **Content Types:** Worlds (complete playable worlds), Prefabs (structures like trees, houses)
+- **Use Cases:** Creative tools, world generation, sharing builds
+- **Best For:** Builders, world designers
+- **Files:** World saves, prefab structures
+
+### Additional: Bootstrap/Early Plugins (Advanced)
 - **Purpose:** Low-level modifications (bytecode transformation)
 - **Tools:** Java, ASM library
 - **Best For:** Expert developers only
 - **Warning:** Can cause stability issues
 - **Use:** Only when absolutely necessary
+- **Note:** Not part of official modding categories
 
 ---
 
@@ -279,20 +314,35 @@ These tutorials were compiled and enhanced by the Hytale modding community, with
 
 | Date | Version | Changes |
 |------|---------|---------|
+| Jan 10, 2026 | 1.1 | Updated with official Hytale modding strategy, added four official categories, visual scripting info |
 | Jan 9, 2026 | 1.0 | Initial compilation of all tutorials |
 
 ---
 
-## Additional Resources
+## Official Resources
 
-### Official:
-- [Hytale Official Site](https://hytale.com/)
-- [Blockbench](https://www.blockbench.net/)
+### Official Hytale
+- **[Hytale Official Site](https://hytale.com/)** - Main website
+- **[Modding Strategy & Status](https://hytale.com/news/2025/11/hytale-modding-strategy-and-status)** - Official modding roadmap
+- **[Official Discord](https://discord.gg/hytale)** - Direct access to developers
+- **[Official Blog](https://hytale.com/news)** - Latest updates and announcements
 
-### Community:
-- Hytale Modding Wiki (TBC)
-- Community Discord servers
-- Community tutorials and resources
+### Official Tools
+- **[Blockbench](https://www.blockbench.net/)** - Official 3D modeling tool
+- **Hytale Asset Editor** - Built into the game (Creation Tools)
+- **Asset Graph Editor** - Coming soon (node-based editor)
+- **Visual Scripting** - Planned for future release
+
+### Official Documentation (In Progress)
+- **GitBook Documentation** - Being developed by Hytale team
+- **Server Source Code** - Expected March 2026 (1-2 months after Early Access)
+- **Development Bounties** - Planned for community contributions
+
+### Community Resources
+- **[CurseForge Discord](https://discord.gg/S3EaZArYz2)** - User-generated content focus
+- **[Plugin Template](https://github.com/realBritakee/hytale-template-plugin)** - Ready-to-use project
+- **Hytale Subreddits** - Community discussions
+- **X/Twitter** - @Hytale for updates
 
 ---
 

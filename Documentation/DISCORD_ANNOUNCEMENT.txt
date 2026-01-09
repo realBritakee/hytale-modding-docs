@@ -1,0 +1,30 @@
+📚 **Hytale Modding Documentation - Now Updated with Official Info!** 📚
+
+Comprehensive documentation for Hytale modding - now featuring official modding strategy from Hytale's Technical Director!
+
+🔗 **Documentation:** https://britakee-studios.gitbook.io/hytale-modding-documentation
+
+✨ **What's Inside:**
+• **Official Modding Strategy** - Four official categories, tools roadmap, and long-term vision
+• **Packs** - Create custom blocks, animations, and content (no coding!)
+• **Plugins** - Java development with modern tools
+• **Visual Scripting Info** - Planned feature (no Lua!)
+• **Ready-to-Use Template** - Build immediately without changes
+• **Video Tutorials** - Step-by-step guides by Kaupenjoe
+• **Advanced Patterns** - Professional architecture and best practices
+
+🎯 **NEW: Official Information**
+- Four modding categories (Plugins, Data Assets, Art Assets, Save Files)
+- Official tools: Asset Editor, Blockbench Plugin, Asset Graph Editor
+- Server source code coming March 2026
+- Visual scripting roadmap (like Unreal Blueprints)
+- NoesisGUI as official UI framework
+
+🚀 **Quick Start:**
+- Content Creators: Start with Packs tutorials
+- Developers: Clone the plugin template from GitHub
+- All tutorials are tested and verified to work!
+
+📦 **Plugin Template:** https://github.com/realBritakee/hytale-template-plugin
+
+Whether you're creating your first block or building complex plugins, this documentation has you covered. Happy modding! 🎮

@@ -30,3 +30,5 @@
 ## Resources & Tools
 
 * [Useful Tools & Links](10-useful-tools-and-links.md)
+* [Blockbench Modeling Guide](17-blockbench-modeling-guide.md)
+* [World Generation Modding](16-world-generation-modding.md)

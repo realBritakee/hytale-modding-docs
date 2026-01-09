@@ -1,10 +1,22 @@
-[size=6][b][RESOURCE] Comprehensive Hytale Modding Documentation - Packs & Plugins[/b][/size]
+[size=6][b][RESOURCE] Comprehensive Hytale Modding Documentation - Now with Official Info![/b][/size]
 
 [size=5][b]📚 Overview[/b][/size]
 
-I've compiled and tested a comprehensive documentation resource for Hytale modding, covering everything from basic Pack creation to advanced Plugin development. All tutorials have been personally tested and verified to work.
+I've compiled and tested a comprehensive documentation resource for Hytale modding, covering everything from basic Pack creation to advanced Plugin development. [b]Now updated with official modding strategy from Hytale's Technical Director![/b]
 
 [b]Documentation Link:[/b] [url=https://britakee-studios.gitbook.io/hytale-modding-documentation]https://britakee-studios.gitbook.io/hytale-modding-documentation[/url]
+
+[size=5][b]🎯 NEW: Official Information[/b][/size]
+
+Based on [url=https://hytale.com/news/2025/11/hytale-modding-strategy-and-status]Hytale's Official Modding Strategy[/url]:
+[list]
+[*][b]Four Official Modding Categories:[/b] Server Plugins, Data Assets, Art Assets, Save Files
+[*][b]Visual Scripting Coming:[/b] Like Unreal Blueprints (NO Lua/text scripting!)
+[*][b]Official Tools:[/b] Asset Editor, Blockbench Plugin, Asset Graph Editor
+[*][b]Server Source Code:[/b] Expected March 2026 (1-2 months after Early Access)
+[*][b]Official UI Framework:[/b] NoesisGUI
+[*][b]Development Bounties:[/b] Planned for community contributions
+[/list]
 
 [size=5][b]✨ What's Included[/b][/size]
 

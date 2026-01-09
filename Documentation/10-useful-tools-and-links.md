@@ -1,49 +1,232 @@
 ﻿# Useful Tools & Links
 
-**Source:** [Useful Tools & Links](https://hytale.com/)  
-**Last Modified:** Friday, January 9, 2026 at 12:02 PM
+**Source:** [Official Hytale Resources](https://hytale.com/)  
+**Last Modified:** Friday, January 10, 2026
 
 ---
 
 ## Overview
 
-This page provides a curated collection of useful tools, links, and community resources for Hytale modding. Whether you're creating Packs or developing Plugins, these resources will help streamline your development process.
+This page provides a curated collection of official tools, community resources, and development utilities for Hytale modding. Whether you're creating Packs, developing Plugins, or designing worlds, these resources will help streamline your workflow.
 
 ---
 
-## Official Tools
+## Official Hytale Tools
 
-### Blockbench
+### Blockbench + Hytale Plugin ⭐
 
 **Website:** [https://www.blockbench.net](https://www.blockbench.net)  
-**Hytale Plugin:** [https://www.blockbench.net/plugins/hytale_plugin](https://www.blockbench.net/plugins/hytale_plugin)
+**Hytale Plugin:** [https://www.blockbench.net/plugins/hytale_plugin](https://www.blockbench.net/plugins/hytale_plugin)  
+**Plugin Source:** [GitHub](https://github.com/JannisX11/hytale-blockbench-plugin)  
+**Official Guide:** [Making Models for Hytale](https://hytale.com/news/2025/12/an-introduction-to-making-models-for-hytale)
 
 **Description:**  
-The official tool for creating models and assets for Hytale, with a specialized plugin to integrate easily within the game.
+The **officially supported** tool for creating Hytale models, textures, and animations. Replaces Hytale's internal modeling tools to support established creative workflows.
+
+**Status:** Releasing soon (Early Access)
 
 #### Features:
--  Create custom 3D block models
--  Design items and entities
--  Create and edit animations
--  Hytale-specific export formats (`.blockymodel`, `.blockyanim`)
--  Texture painting and UV mapping
--  Preview models in real-time
+- Create Hytale-compatible models, textures, and animations
+- Maintains consistent pixel ratio across textures
+- Exports in correct Hytale format
+- Quality-of-life improvements for Hytale workflow
+- Texture painting and UV mapping
+- Real-time preview
+
+#### Official Art Style Guidelines:
+- **Primitives:** Only cubes and quads (no spheres!)
+- **Texture Density:** 64px/unit for characters, 32px/unit for props/blocks
+- **Texture Size:** Multiples of 32px (32, 64, 96, 128, etc.)
+- **Stretching Limits:** 0.7X to 1.3X on any axis
+- **Colors:** Avoid pure white and pure black
+- **Triangle Count:** Keep optimized for performance
+
+**Official Models:** [Download Examples](https://cdn.hytale.com/Hytale%20Model%20Examples.zip)
 
 #### Getting Started:
 1. Download Blockbench from the official website
-2. Install the Hytale plugin
-3. Create or import models
-4. Export in Hytale format
-5. Place files in your Pack's `Common/` folder
+2. Install the Hytale Blockbench plugin
+3. Study official model examples
+4. Follow [Blockbench Modeling Guide](17-blockbench-modeling-guide.md)
+5. Export in Hytale format
+6. Place files in your Pack's `Common/` folder
 
 #### File Formats:
 - **Models:** `.blockymodel` - Custom block/item models
 - **Animations:** `.blockyanim` - Block animation files
-- **Textures:** `.png` - Standard PNG images
+- **Textures:** `.png` - Standard PNG images (multiples of 32px)
+
+---
+
+### Hytale Asset Editor
+
+**Access:** Built into Hytale (Creation Tools tab)  
+**Official Info:** [Modding Strategy](https://hytale.com/news/2025/11/hytale-modding-strategy-and-status)
+
+**Description:**  
+Visual editor for data assets (JSON files). Supports most asset types with some limitations.
+
+**Status:** Available now in Early Access
+
+#### Features:
+- Edit data assets visually (no coding required)
+- Supports blocks, items, and most asset types
+- Direct integration with Hytale
+- Live preview of changes
+
+#### Current Limitations:
+- Notable limitations around NPCs
+- World generation editing limited
+- Interactions not fully exposed
+- **Note:** Will expand over time
+
+#### Use Cases:
+- Modify block properties
+- Configure item behaviors
+- Edit asset metadata
+- Visual asset configuration
+
+---
+
+### Asset Graph Editor (Node Editor)
+
+**Access:** Built into Hytale (after launch)  
+**Official Info:** [World Generation Blog](https://hytale.com/news/2026/1/the-future-of-world-generation)
+
+**Description:**  
+Node-based editor for complex assets like world generation, NPCs, and creative tool brushes.
+
+**Status:** Currently being released
+
+#### Features:
+- Visual node-graph interface
+- Live-reload in-game
+- No coding required
+- Build advanced procedural content by linking simple nodes
+- Full control over biomes, terrain, props, and materials
+
+#### Use Cases:
+- World generation (biomes, terrain, props)
+- NPC behavior configuration
+- Creative tool brush creation
+- Complex asset configuration
+
+#### World Generation Capabilities:
+- **Pattern Scanning System** - Contextual prop placement
+- **Terrain Shape Control** - Independent biome terrain
+- **Material Providers** - Control terrain materials
+- **Props System** - POIs, vegetation, decorations
+- **Live-Reload** - Instant in-game feedback
+
+**Note:** Internal tool being made public - expect rough edges but useful functionality.
+
+---
+
+### Creative Mode Tools
+
+**Access:** Built into Hytale (Creative Mode)  
+**Official Info:** [Creative Mode Blog](https://hytale.com/news/2025/11/hytale-creative-mode)
+
+**Description:**  
+Interactive suite of in-game tools for world editing and content creation.
+
+**Status:** Available in Early Access
+
+#### Tools Available:
+- **Scripted Brushes** - Asset-defined brushes (mountains, paths, ruins)
+- **Shape Brush** - Paint pyramids, cones, squares, and more
+- **Selection Tool** - 3D selections, copy, paste, move, rotate
+- **Paste Tool** - Precise prefab placement
+- **Ruler Tool** - Measure distances and mark outlines
+- **Laser Pointer** - Point out locations to friends
+- **Machinima Tool** - Camera animation and recording
+- **Prefab Browser/Editor** - Browse and edit prefabs
+- **Player Model Changer** - Become any NPC model
+
+#### Creative Mode Features:
+- Customizable flight (speed, controls, inertia)
+- Quick Settings Panel
+- Help Menu for commands
+- Real-time world modification
+
+---
+
+### Machinima Tools
+
+**Access:** Built into Hytale  
+**Official Info:** [Modding Strategy](https://hytale.com/news/2025/11/hytale-modding-strategy-and-status)
+
+**Description:**  
+Tools used to create the official 2018 Hytale trailer. Create cinematic content with camera animations.
+
+**Status:** Available but needs technical fixes
+
+#### Features:
+- Camera actor placement
+- Keyframe animation
+- Speed and timing control
+- Cinematic recording
+
+**Note:** Scheduled for massive upgrade in functionality and UX after launch.
 
 ---
 
 ## Community Resources
+
+### HytaleGuide.net ⭐
+
+**Website:** [https://hytaleguide.net](https://hytaleguide.net)  
+**Forum:** [Community Forum](https://hytaleguide.net)
+
+**Description:**  
+Comprehensive wiki dedicated to Hytale gameplay content, items, mobs, zones, and adventure mode information.
+
+**Content:**
+- **Items Database** - Weapons, armor, food, and item stats
+- **Mobs Encyclopedia** - Creature information, drops, and locations
+- **Zones Guide** - Emerald Grove, Borea, Devastated Lands, Howling Sands
+- **Biomes Information** - Biome-specific content and features
+- **Alterverses** - Information about Orbis and other planets
+- **Guides Section** - Gameplay guides and tutorials
+- **Community Forum** - Discussion and server listings
+
+**Perfect for:**
+- Learning about Hytale gameplay content
+- Understanding items, mobs, and zones
+- Adventure mode information
+- Community discussions and server listings
+
+**Note:** Focuses on gameplay content rather than modding - complementary to modding documentation.
+
+---
+
+### Hytale Modding Documentation
+
+**Website:** [https://hytalemodding.dev](https://hytalemodding.dev/en/docs)  
+**GitHub:** [HytaleModding/site](https://github.com/HytaleModding/site)
+
+**Description:**  
+Community-driven documentation site providing comprehensive guides and resources for Hytale modding. Open source and accepting contributions.
+
+**Content:**
+- **Quick Start** - Setting up a standard Hytale project
+- **Learning to Learn** - Meta-learning guide for becoming a better learner
+- **3D Modeling Guides** - Fundamentals, techniques, and best practices
+- **Java Basics Series** - Programming tutorials for beginners
+- **Publishing Your Mod** - How to distribute mods
+- **Established Information** - Core modding concepts and FAQ
+- **Contributing** - How to contribute to their documentation
+
+**Philosophy:**
+> "It is important to note that modding Hytale is not restricted to programming plugins. Programming, visual scripting, texturing, 3D modelling, modifying assets, etc. are all modding. In Hytale, anyone can be a modder."
+
+**Perfect for:**
+- Beginners learning Java programming
+- Those looking for community-driven tutorials
+- Modders wanting to publish their work
+- Contributors who want to help improve documentation
+
+---
 
 ### Hytale Modding Video Tutorials
 
@@ -60,25 +243,6 @@ Comprehensive video tutorial series covering Hytale modding from basics to advan
 - Advanced techniques and patterns
 
 **Perfect for:** Visual learners who prefer video tutorials over written documentation.
-
----
-
-### Hytale Modding Wiki
-
-**Status:** To Be Confirmed (TBC)
-
-**Description:**  
-This knowledge base offers up-to-date information on mod creation and tutorials, contributed by a team of experienced developers and authors.
-
-**Expected Content:**
-- Comprehensive API documentation
-- Community-created tutorials
-- Best practices and patterns
-- Code examples and snippets
-- Troubleshooting guides
-- Advanced techniques
-
-**Note:** Check community forums for the latest link when available.
 
 ---
 
@@ -292,9 +456,59 @@ Another Java decompiler with different strengths.
 
 ---
 
+## Mod Distribution Platforms
+
+### CurseForge
+
+**Website:** [https://www.curseforge.com](https://www.curseforge.com)  
+**Discord:** [CurseForge UGC Discord](https://discord.gg/S3EaZArYz2)
+
+**Description:**  
+Large mod hosting platform supporting multiple games including Hytale.
+
+**Features:**
+- Established platform with large user base
+- Mod hosting and distribution
+- Automatic updates
+- Community features
+
+---
+
+### GitHub Releases
+
+**Website:** [https://github.com](https://github.com)
+
+**Description:**  
+Use GitHub releases to distribute your mods directly.
+
+**Benefits:**
+- Version control integration
+- Open source friendly
+- Direct download links
+- Changelog management
+
+**Perfect for:**
+- Open source mods
+- Developer-focused distribution
+- Beta testing and pre-releases
+
+---
+
 ## Learning Resources
 
 ### Java Tutorials
+
+#### Hytale Modding - Java Basics
+**Website:** [hytalemodding.dev/guides/java-basics](https://hytalemodding.dev/en/docs/guides/java-basics)  
+Community-created Java basics series specifically for Hytale modders.
+
+#### w3schools Java Tutorial
+**Website:** [https://www.w3schools.com/java/](https://www.w3schools.com/java/)  
+Interactive Java tutorials with examples.
+
+#### GeeksforGeeks Java
+**Website:** [https://www.geeksforgeeks.org/java/](https://www.geeksforgeeks.org/java/)  
+Comprehensive Java programming tutorials and examples.
 
 #### Oracle Java Tutorials
 **Website:** [https://docs.oracle.com/javase/tutorial/](https://docs.oracle.com/javase/tutorial/)  
@@ -308,12 +522,16 @@ Free comprehensive Java course.
 
 ### Modding Tutorials
 
-#### Hytale Documentation
-**Website:** [https://hytale.com/](https://hytale.com/)  
-Official tutorials and guides (this documentation set).
+#### Official Hytale Blog
+**Website:** [https://hytale.com/news](https://hytale.com/news)  
+Official tutorials, guides, and development updates.
 
-#### Community Tutorials
-Check Hytale Modding Wiki (when available) and community forums for community-created tutorials.
+#### Hytale Modding Documentation
+**Website:** [https://hytalemodding.dev](https://hytalemodding.dev/en/docs)  
+Community-driven modding documentation with guides and tutorials.
+
+#### This Documentation
+Comprehensive guides covering Packs, Plugins, World Generation, and more.
 
 ---
 
