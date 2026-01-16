@@ -1,13 +1,14 @@
+```markdown
 # Setting Up a Local Server
 
-**Source:** [Setting Up a Local Server](https://hytale.com/)  
-**Last Modified:** Friday, January 16, 2026 at 08:00 AM
+**Source:** [Hytale Server Manual](https://support.hytale.com/hc/en-us/articles/45326769420827-Hytale-Server-Manual)  
+**Last Modified:** Friday, January 16, 2026 at 12:53 PM
 
 ---
 
 ## Overview
 
-This guide will help you set up a local Hytale server on your machine for testing mods, playing with friends on your local network, or development purposes.
+This guide helps you set up a local Hytale server for testing mods, LAN play, or development on your machine.[file:12]
 
 ---
 
@@ -15,21 +16,31 @@ This guide will help you set up a local Hytale server on your machine for testin
 
 Before you begin, ensure you have:
 - **Hytale** installed via the official launcher
-- **Java 25** downloaded and configured
-- Basic understanding of command line/terminal
-- Port forwarding knowledge (optional, for external connections)
+- **Java 25** from [Adoptium](https://adoptium.net/temurin/releases)
+- Basic command line/terminal knowledge[file:12]
 
 ---
 
 ## Step 1: Locating Hytale Server Files
 
-[Content to be added]
+1. Open Hytale Launcher → **Settings** → **Open Directory**
+2. Go to: `%appdata%\Hytale\install\release\package\game\latest\`
+3. Copy **Server/** folder and **Assets.zip** to `C:\HytaleServer\`
+
+```
+C:\HytaleServer\
+├── Server\HytaleServer.jar
+└── Assets.zip
+```
 
 ---
 
 ## Step 2: Launching the Server
 
-[Content to be added]
+```
+cd C:\HytaleServer
+java -Xmx4G -jar Server\HytaleServer.jar --assets Assets.zip
+```
 
 ---
 
@@ -37,50 +48,83 @@ Before you begin, ensure you have:
 
 ### You MUST authenticate your server!
 
-In order to connect to your local server, you must authenticate it with Hytale. This is done by running the `auth login device` command in the server terminal. This command will print a URL that you can use to authenticate the server using your Hytale account.
+1. Run: `/auth login device`
+2. Visit printed URL + code in browser  
+3. Login with Hytale account
+4. Run: `/auth persistence Encrypted`
 
-Once authenticated, you can run the `auth persistence Encrypted` command to keep your server authenticated after restarting it.
-
-**Never share your encrypted auth file!**
+**Never share your encrypted auth file!**[file:12]
 
 ---
 
 ## Step 4: Connecting to Your Server
 
-[Content to be added]
+**Local:** `localhost:5520`  
+**LAN:** `192.168.x.x:5520`
+
+**In Hytale client:**
+1. **Play** → **Servers** → **Add Server**
+2. Enter address above
+3. Join!
+
+**Firewall (Windows):**
+```
+New-NetFirewallRule -DisplayName "Hytale Server" -Direction Inbound -Protocol UDP -LocalPort 5520 -Action Allow
+```
 
 ---
 
 ## Step 5: Basic Server Configuration
 
-[Content to be added]
+Edit `config.json` (server stopped):
+```json
+{
+  "max-players": 10,
+  "view-distance": 12
+}
+```
+
+**Key files:**
+- `config.json` - Server settings
+- `universe/worlds/*/config.json` - World settings
 
 ---
 
 ## Installing Mods on Your Server
 
-[Content to be added]
+1. Create `mods/` folder in server directory
+2. Drop `.zip` or `.jar` files into `mods/`
+3. Restart server
 
 ---
 
 ## Troubleshooting
 
 ### Server won't start
-[Content to be added]
+- Verify: `java --version` shows OpenJDK 25
+- Use 4GB+ RAM: `-Xmx4G`
+- Check Assets.zip path
 
 ### Can't connect to server
-[Content to be added]
+- Use **UDP port 5520** (not 25565)
+- Allow UDP 5520 in firewall
+- Server must be authenticated
 
 ### Port already in use
-[Content to be added]
+```
+netstat -ano | findstr :5520
+```
+Kill process or change port with `--bind 0.0.0.0:25565`
 
 ### Authentication issues
-[Content to be added]
+- Delete auth files
+- Retry `/auth login device`
 
 ---
 
-### Getting Help:
+## Getting Help
 
 **Official Channels:**
-- **Discord** - [Official Hytale Discord](https://discord.gg/hytale)
-- **Blog** - [Hytale News](https://hytale.com/news)
+- **Server Manual:** [Hytale Server Manual](https://support.hytale.com/hc/en-us/articles/45326769420827-Hytale-Server-Manual)
+- **Discord:** [Official Hytale Discord](https://discord.gg/hytale)
+- **Blog:** [Hytale News](https://hytale.com/news)

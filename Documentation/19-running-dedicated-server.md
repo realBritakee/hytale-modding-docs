@@ -106,8 +106,9 @@ Once authenticated, you can run the `auth persistence Encrypted` command to keep
 
 ---
 
-### Getting Help:
+## Getting Help
 
 **Official Channels:**
-- **Discord** - [Official Hytale Discord](https://discord.gg/hytale)
-- **Blog** - [Hytale News](https://hytale.com/news)
+- **Server Manual:** [Hytale Server Manual](https://support.hytale.com/hc/en-us/articles/45326769420827-Hytale-Server-Manual)
+- **Discord:** [Official Hytale Discord](https://discord.gg/hytale)
+- **Blog:** [Hytale News](https://hytale.com/news)

@@ -461,12 +461,8 @@ If you're migrating from another template:
 
 ---
 
-### Getting Help:
+## Getting Help
 
 **Official Channels:**
-- **Discord** - [Official Hytale Discord](https://discord.gg/hytale)
-- **Blog** - [Hytale News](https://hytale.com/news)
-
----
-
-**Happy Modding! 🎮**
+- **Discord:** [Official Hytale Discord](https://discord.gg/hytale)
+- **Blog:** [Hytale News](https://hytale.com/news)

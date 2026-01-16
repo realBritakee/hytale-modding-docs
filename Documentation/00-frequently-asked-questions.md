@@ -212,17 +212,8 @@ While current modding support is PC-focused, the team hasn't ruled out future co
 
 ---
 
-## Additional Questions?
-
-### Not Finding Your Answer?
-
-1. Search the documentation
-2. Ask in the Discord #modding channel
-3. Check the official blog for updates
-4. Submit a question on community forums
-
-### Getting Help:
+## Getting Help
 
 **Official Channels:**
-- **Discord** - [Official Hytale Discord](https://discord.gg/hytale)
-- **Blog** - [Hytale News](https://hytale.com/news)
+- **Discord:** [Official Hytale Discord](https://discord.gg/hytale)
+- **Blog:** [Hytale News](https://hytale.com/news)

@@ -18,6 +18,8 @@
 * [Hytale Server Manager](20-hytale-server-manager.md)
 * [Server Configuration](21-server-configuration.md)
 * [Server Commands & Permissions](22-server-commands-permissions.md)
+* [Server Tips & Optimization](23-tips-and-optimization.md)
+* [Future Server Additions](24-future-additions.md)
 
 ## Packs - Content Creation
 

@@ -425,21 +425,8 @@ You can include Packs (assets) with your Plugin:
 
 ---
 
-## Next Steps
-
-After setting up your plugin development environment:
-
-1. **Explore the API** - Browse available classes and methods
-2. **Study Example Code** - Review the included examples
-3. **Remove Example Content** - Delete the test command and example recipe before release
-4. **Create Custom Features** - Start implementing your ideas
-5. **Use Config Files** - See "Custom Config Files" tutorial
-6. **Advanced Modding** - Explore "Bootstrap/Early Plugins" if needed
-
----
-
-### Getting Help:
+## Getting Help
 
 **Official Channels:**
-- **Discord** - [Official Hytale Discord](https://discord.gg/hytale)
-- **Blog** - [Hytale News](https://hytale.com/news)
+- **Discord:** [Official Hytale Discord](https://discord.gg/hytale)
+- **Blog:** [Hytale News](https://hytale.com/news)
