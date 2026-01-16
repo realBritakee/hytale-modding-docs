@@ -15,14 +15,25 @@ This guide walks you through creating your first Hytale Pack. Packs are asset/co
 
 First, create a folder for your Pack:
 
-**Path:** `./AppData/Roaming/Hytale/UserData/Packs/YourPackName`
+**Path:** `./AppData/Roaming/Hytale/UserData/Mods/YourPackName`
 
 Replace `YourPackName` with the desired name of your Pack.
 
 ### Example:
 ```bash
-C:\Users\YourUsername\AppData\Roaming\Hytale\UserData\Packs\MyFirstPack
+C:\Users\YourUsername\AppData\Roaming\Hytale\UserData\Mods\MyFirstPack
 ```
+
+## Alternate - using the asset editor
+
+1. launch the game and create a new **Creative World**
+2. Give yourself "OP", type in chat **/op self**
+3. Open your **Inventory** go to **Creative Tools** -> **Assets** -> **Asset Editor**
+4. Inside the **Asset Editor** click in the top left on the three little dots -> Add Pack
+5. Fill in your desired information.
+6. Proceed with Step 3
+
+> **Note:** See our [Youtube Tutorials](00-youtube-tutorials.md) if you want to learn more about the Asset Editor!
 
 ---
 
@@ -120,6 +131,12 @@ MyFirstPack/
     `-- Block/
 ```
 
+> **Note:** I can't list every folder, as it would make the page too long!
+
+1. Open your Hytale launcher
+2. Top left on settings
+3. Click on Open Directory
+4. open the folders "install\release\package\game\latest" and see inside the Assets.zip which folders are available.
 ---
 
 ## Next Steps
@@ -142,12 +159,6 @@ To use your Pack in Hytale:
 3. Right-click on the world you wish to add the Pack to
 4. Toggle on your Pack from the list
 5. Enter the world to see your changes
-
----
-
-## Credits
-
-Thank you to **Sketch Macaw** for creating this tutorial.
 
 ---
 

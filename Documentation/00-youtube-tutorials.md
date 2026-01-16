@@ -4,7 +4,7 @@ This tutorial by **Britakee** provides a step-by-step guide on using the in-game
 
 ---
 
-## Video Tutorial
+## Hytale Modding Tutorial #1: Setup Packs & Custom Item
 
 {% embed url="https://www.youtube.com/watch?v=_XwdR1fOl5U" %}
 
