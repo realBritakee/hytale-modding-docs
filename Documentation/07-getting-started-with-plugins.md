@@ -1,7 +1,7 @@
 ﻿# Getting Started with Plugins
 
 **Source:** [Getting Started with Plugins](https://hytale.com/)  
-**Last Modified:** Friday, January 9, 2026 at 12:09 PM
+**Last Modified:** Friday, January 16, 2026 at 07:30 AM
 
 ---
 
@@ -25,9 +25,8 @@ Before you begin, ensure you have:
 
 The easiest way to start developing plugins is by using the official template created by **Darkhax & Jared**.
 
-### Download Options:
-
-- **Plugin Template:** [Github Repo](https://github.com/realBritakee/hytale-template-plugin)
+### Plugin Template:
+- **Hytale Plugin Template:** [Github Repo](https://github.com/realBritakee/hytale-template-plugin)
 
 ### Template Features:
 
@@ -359,25 +358,12 @@ After setting up your plugin development environment:
 
 ### Official Links:
 - **Blockbench:** [https://www.blockbench.net/](https://www.blockbench.net/)
-- **Hytale Modding Wiki:** (Link TBC)
-- **Community Discord:** Get community help
-
-### Plugin Template:
-- **Hytale Plugin Template:** [https://github.com/realBritakee/hytale-template-plugin](https://github.com/realBritakee/hytale-template-plugin)  
-  Ready-to-use template with modern build tools, automated testing, and CI/CD
+- **Community Discord:** [Hytale Discord](https://discord.gg/hytale)
 
 ### Related Tutorials:
 - [Plugin Project Template](15-plugin-project-template.md)
 - [Custom Config Files](08-custom-config-files.md)
 - [Bootstrap/Early Plugins](09-bootstrap-early-plugins.md)
 - [Useful Tools & Links](10-useful-tools-and-links.md)
-
----
-
-## Credits
-
-This guide was created by **Darkhax**, **Jared**, and **Rick**.
-
----
 
 
