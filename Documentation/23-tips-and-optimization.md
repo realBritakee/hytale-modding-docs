@@ -1,6 +1,3 @@
-```markdown
-# 24-tips-and-optimization.md
-
 # Server Tips & Optimization
 
 **Source:** [Hytale Server Manual](https://support.hytale.com/hc/en-us/articles/45326769420827-Hytale-Server-Manual)  
