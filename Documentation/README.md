@@ -57,6 +57,7 @@ How to create blocks with multiple states (on/off, open/closed).
 Creating custom categories and subcategories for the Creative Menu.
 * **[Block Animations](06-block-animations.md)**
 Adding animations to blocks using Blockbench and `.blockyanim` files.
+* **[Blockbench Modeling Guide](17-blockbench-modeling-guide.md)** 🎨
 
 ### PLUGINS - JAVA DEVELOPMENT
 
@@ -80,7 +81,6 @@ Ready-to-use plugin template with modern build tools and CI/CD.
 ### RESOURCES & TOOLS
 
 * **[Useful Tools & Links](10-useful-tools-and-links.md)** ⭐
-* **[Blockbench Modeling Guide](17-blockbench-modeling-guide.md)** 🎨
 * **[World Generation Modding](16-world-generation-modding.md)** 🌍
 
 ---

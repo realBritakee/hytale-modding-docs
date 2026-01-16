@@ -28,6 +28,7 @@
 * [Block State Changing](04-block-state-changing.md)
 * [Item Categories](05-item-categories.md)
 * [Block Animations](06-block-animations.md)
+* [Blockbench Modeling Guide](17-blockbench-modeling-guide.md)
 
 ## Plugins - Java Development
 
@@ -43,5 +44,4 @@
 ## Resources & Tools
 
 * [Useful Tools & Links](10-useful-tools-and-links.md)
-* [Blockbench Modeling Guide](17-blockbench-modeling-guide.md)
 * [World Generation Modding](16-world-generation-modding.md)
