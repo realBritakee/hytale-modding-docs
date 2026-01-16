@@ -27,8 +27,7 @@ The easiest way to start developing plugins is by using the official template cr
 
 ### Download Options:
 
-- **Zip File:** (Link TBC - Check Community documentation)
-- **GitHub Repo:** (Link TBC - Check Community documentation)
+- **Plugin Template:** [Github Repo](https://github.com/realBritakee/hytale-template-plugin)
 
 ### Template Features:
 
