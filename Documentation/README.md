@@ -18,6 +18,7 @@ Hytale is currently in **Early Access**. This documentation is based on official
 
 > *"We're building Hytale with modding at its core. Most of what you see in the game can be changed, extended, or removed entirely."* - Slikey (Technical Director)
 
+if you need further help, feel free to join my [Discord](https://discord.gg/gCRv62araB), and write a message to @Britakee
 ---
 
 ## Table of Contents
