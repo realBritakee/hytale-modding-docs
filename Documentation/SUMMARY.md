@@ -11,6 +11,14 @@
 
 * [Hytale Modding Overview](01-hytale-modding-overview.md)
 
+## Server - Administration
+
+* [Setting Up a Local Server](18-setting-up-local-server.md)
+* [Running a Dedicated Server](19-running-dedicated-server.md)
+* [Hytale Server Manager](20-hytale-server-manager.md)
+* [Server Configuration](21-server-configuration.md)
+* [Server Commands & Permissions](22-server-commands-permissions.md)
+
 ## Packs - Content Creation
 
 * [Getting Started with Packs](02-getting-started-with-packs.md)
