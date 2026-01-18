@@ -33,13 +33,12 @@ public class ModdedCommand extends CommandBase {
     @Override
     protected void executeSync(@Nonnull CommandContext commandContext) {
         // Ensure the sender is a player before proceeding
-        commandContext.senderAsPlayer().getWorld().execute(() -> {
+        commandContext.senderAs(Player.class).getWorld().execute(() -> {
             EventTitleUtil.showEventTitleToPlayer(
-                commandContext.senderAsPlayer().getReference(),
-                Message.raw("It's modded!"), // Main Title
-                Message.raw("Yeppers"),      // Subtitle
-                true,                        // Is Major (Shows gold bars/animation)
-                commandContext.senderAsPlayer().getWorld().getEntityStore().getStore()
+                    commandContext.senderAs(Player.class).getPlayerRef(),
+                    Message.raw("It's modded!"), // Main Title
+                    Message.raw("Yeppers"),      // Subtitle
+                    true                         // isMajor (Shows gold bars/animation)
             );
         });
     }
@@ -68,10 +67,9 @@ The `super` call defines how players interact with the command in the chat conso
 
 The `EventTitleUtil` class handles the packet logic for you:
 
-* **Player Reference**: Obtained via `senderAsPlayer().getReference()`.
+* **Player Reference**: Obtained via `commandContext.senderAs(Player.class).getPlayerRef()`.
 * **Main/Subtitle**: Wrapped in `Message.raw()` to handle plain text.
 * **Is Major**: If set to `true`, the title displays with "major" styling (often including decorative bars and a more pronounced animation).
-* **Entity Store**: Required for the server to track the display lifecycle relative to the player entity.
 
 ---
 
@@ -81,13 +79,10 @@ To activate your command, register it within the `onEnable()` method of your mai
 
 ```java
 public class ExamplePlugin extends JavaPlugin {
-    
+
     @Override
-    public void onEnable() {
-        // Register the command with the server's command manager
-        getServer().getCommandManager().registerCommand(new ModdedCommand());
-        
-        getLogger().info("Modded Title Plugin has been enabled!");
+    protected void setup() {
+        this.getCommandRegistry().registerCommand(new ModdedCommand());
     }
 }
 
@@ -116,7 +111,7 @@ While the basic utility uses default timings, you can also specify fade-in, stay
 ## Best Practices
 
 * **Thread Safety**: Always wrap world-altering or visual logic in a `world.execute()` block to ensure it runs on the correct synchronization cycle.
-* **Player Validation**: Before calling `senderAsPlayer()`, verify the sender is actually a player (and not the console) to avoid `NullPointerExceptions`.
+* **Player Validation**: Before calling `senderAs(Player.class)`, verify the sender is actually a player (and not the console) to avoid `NullPointerExceptions`.
 * **Clarity**: Avoid using titles for frequent spam; they are best reserved for significant milestones to maintain their visual impact.
 
 ---
