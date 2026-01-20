@@ -1,6 +1,6 @@
 # Hytale Modding Documentation
 
-## 🤝 Official Partner & Sponsor
+## 🤝 Official Partner
 **[Hytale Creators](https://hytalecreators.net)** is a proud partner of this documentation project. We are working together to build a valuable ecosystem for the Hytale modding community through educational content, technical guides, and blog resources.
 
 * **Website:** [hytalecreators.net](https://hytalecreators.net)
