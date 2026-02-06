@@ -1,0 +1,6 @@
+{
+  "name": "hytale-modding-docs",
+  "scripts": {
+    "generate:llms": "node scripts/generate-llms-txt.js"
+  }
+}

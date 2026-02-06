@@ -1,0 +1,39 @@
+name: Generate llms.txt
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'Documentation/SUMMARY.md'
+      - 'scripts/generate-llms-txt.js'
+  workflow_dispatch:
+
+jobs:
+  generate-llms:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      
+      - name: Generate llms.txt
+        run: node scripts/generate-llms-txt.js
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code Documentation/llms.txt || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add Documentation/llms.txt
+          git commit -m "🤖 Auto-update llms.txt"
+          git push

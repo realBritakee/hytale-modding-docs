@@ -4,5 +4,8 @@ structure:
   readme: README.md
   summary: SUMMARY.md
 
+files:
+  - llms.txt
+
 redirects:
   previous/page: new-folder/page.md
