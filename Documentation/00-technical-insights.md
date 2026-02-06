@@ -119,7 +119,7 @@ Hytale uses QUIC, which is a reliable UDP protocol with unreliable channels, ins
 **Primary Channels:**
 
 * [CurseForge](https://www.curseforge.com)
-* [Modrinth](https://modrinth.com)
+* [Modtale](https://modtale.net)
 * GitHub releases
 * Community websites
 
