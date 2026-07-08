@@ -165,6 +165,18 @@ This page provides a curated collection of official tools, community resources, 
 
 ---
 
+## Community Resources
+
+### Hytale Character Recipes
+
+**Website:** [https://hytalecharacter.com/](https://hytalecharacter.com/)
+
+**Submission Guidelines:** [https://hytalecharacter.com/submission-guidelines](https://hytalecharacter.com/submission-guidelines)
+
+**Description:** Unofficial fan-maintained archive for Hytale character recipes, avatar preset references, screenshots, and step-by-step recreation notes.
+
+---
+
 ## Version Control
 
 ### Git
